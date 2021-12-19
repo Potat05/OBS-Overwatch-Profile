@@ -5,18 +5,29 @@
 }
 
 body {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 1);
     margin: 0;
     overflow: hidden;
 }
 
-.container {
+.page {
+    position: absolute;
     width: 100vw;
     height: 40vw;
-    /* background-color: #fff; */
     display: flex;
     justify-content: space-around;
-    border-radius: 5vw;
+    /* make fade in and out */
+    transition: opacity 0.5s ease-in-out;
+}
+
+.page:not(.active)  {
+    opacity: 0;
+}
+
+.ratio-WLD {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
 }
 
 .display {
