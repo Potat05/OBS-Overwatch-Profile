@@ -7,5 +7,5 @@ go into settings.js in the folder and change platform, region, name, & id
   
 ### What it does  
 Displays SR  
-TODO: Display Wins/Losses  
+Display Wins/Losses (Currently doesn't count draws i will stop using the api and just get data from the actual profile page instead because that counts draws)  
   
